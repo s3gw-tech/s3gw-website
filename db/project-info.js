@@ -31,11 +31,7 @@ export const PROJECT_CONFIGURATION = {
   },
   projectCta: {
     title: 'About Aquarium',
-<<<<<<< HEAD
-    description: 'Aquarium is '
-=======
     description: 'Aquarium extracts the complications of Ceph - such as placement groups and pools - and replaces it with a simplified management UI deployed simply and cleanly without any fuss. Aquarium serves best in use cases where Ceph as a separate data plane would be beneficial.'
->>>>>>> c91f4456d77655ffca1424665aeb861fc134a9a2
   },
   // ℹ️ No more than 3 items for a better structure.
   projectBulletPoints: [
@@ -93,22 +89,6 @@ export const PROJECT_CONFIGURATION = {
         {
           title: 'What is a storage appliance?',
           description: 'A storage appliance is something that can provide or manage data without an application context to add simplification to the day 1 installer experience. This is often displayed in the form of a wizard-driven installation process, but it can also mean a fixed hardware configuration.',
-<<<<<<< HEAD
-        },
-        {
-          title: 'How is this project related to Ceph?',
-          description: 'Being Ceph developers and enthusiasts, we’re building Aquarium on top of Ceph. Providing an appliance style deployment and a service-based GUI, but it’s still Ceph underneath.',
-        },
-        {
-          title: 'Is this an open source project?',
-          description: 'Absolutely! Everything we’re doing is in the open: development, discussions, decision making, even our meetings.',
-        },
-        {
-          title: 'How do I get involved?',
-          description: 'Have a look at our issue list in the GitHub repository and please join our Slack channel. We would love to hear from you'
-        },
-        {
-=======
         },
         {
           title: 'How is this project related to Ceph?',
@@ -124,7 +104,6 @@ export const PROJECT_CONFIGURATION = {
         },
 
         {
->>>>>>> c91f4456d77655ffca1424665aeb861fc134a9a2
           title: 'Does Aquarium support the same services and features as Ceph?',
           description: 'We deliberately do not expose all features in order to simplify deployment and management for what we think are common or useful deployment scenarios.',
         },
@@ -134,17 +113,10 @@ export const PROJECT_CONFIGURATION = {
     isEnable: false,
     elements: [
       {
-<<<<<<< HEAD
-        sponsor: 'SUSE',
-        href: 'https://www.suse.com',
-        logo: ''
-      }
-=======
         sponsor: 'aws',
         href: 'http://www.google.com',
-        logo: AWS_LOGO
+        // logo: AWS_LOGO
       },
->>>>>>> c91f4456d77655ffca1424665aeb861fc134a9a2
     ]
   },
   projectFooterLinks: [
