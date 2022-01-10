@@ -1,6 +1,4 @@
-import { CloudSVG, TorchSVG, ContainerSVG, GithubSVG, TwitterSVG } from '@/assets/images'
-import AWS_LOGO from '@/assets/sponsors/aws.svg'
-import AZURE_LOOG from '@/assets/sponsors/azure.svg'
+import { CloudSVG, TorchSVG, ContainerSVG, GithubSVG, SlackSVG } from '@/assets/images'
 
 export const PROJECT_CONFIGURATION = {
   projectTitle: 'Aquarium',
@@ -20,6 +18,10 @@ export const PROJECT_CONFIGURATION = {
       {
         url: 'https://github.com/aquarist-labs/aquarium',
         icon: GithubSVG
+      },
+      {
+        url: 'https://join.slack.com/t/aquaristlabs/shared_invite/zt-nphn0jhg-QYKw__It8JPMkUR_sArOug',
+        icon: SlackSVG
       },
     ]
   },
@@ -98,9 +100,8 @@ export const PROJECT_CONFIGURATION = {
         },
         {
           title: 'How do I get involved?',
-          description: 'Have a look at our issue list in the GitHub repository and please join our Slack channel. We would love to hear from you'.
+          description: 'Have a look at our issue list in the GitHub repository and please join our Slack channel. We would love to hear from you'
         },
-
         {
           title: 'Does Aquarium support the same services and features as Ceph?',
           description: 'We deliberately do not expose all features in order to simplify deployment and management for what we think are common or useful deployment scenarios.',
@@ -113,8 +114,8 @@ export const PROJECT_CONFIGURATION = {
       {
         sponsor: 'SUSE',
         href: 'https://www.suse.com',
-        logo:
-      },
+        logo: ''
+      }
     ]
   },
   projectFooterLinks: [
