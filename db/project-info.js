@@ -29,7 +29,7 @@ export const PROJECT_CONFIGURATION = {
   },
   projectCta: {
     title: 'About Aquarium',
-    description: 'Aquarium is '
+    description: 'Aquarium extracts the complications of Ceph - such as placement groups and pools - and replaces it with a simplified management UI deployed simply and cleanly without any fuss. Aquarium serves best in use cases where Ceph as a separate data plane would be beneficial.'
   },
   // ℹ️ No more than 3 items for a better structure.
   projectBulletPoints: [
