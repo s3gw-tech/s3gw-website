@@ -31,13 +31,13 @@ export const PROJECT_CONFIGURATION = {
   },
   projectCta: {
     title: 'About Aquarium',
-    description: 'Aquarium extracts the complications of Ceph - such as placement groups and pools - and replaces it with a simplified management UI deployed simply and cleanly without any fuss. Aquarium serves best in use cases where Ceph as a separate data plane would be beneficial.'
+    description: 'Made up of five logical components - host operating system, host management console, simplified management UI, support diagnostics, and a workload orientated deployment - Aquarium extracts the complications of Ceph and provides a series of simple management consoles to help support your file and object storage needs.'
   },
   // ℹ️ No more than 3 items for a better structure.
   projectBulletPoints: [
     'A storage appliance build in an opinionated fashion',
     'Easy to manage deployment and day 1 operations',
-    'Simple management UI with an intuitive UI/UX experience'
+    'Support diagnostics and workload-orientated deployment tools'
   ],
   projectRepoURL: 'https://github.com/aquarist-labs/aquarium',
   projectDocumentationURL: 'https://github.com/aquarist-labs/aquarium/blob/main/doc/from-zero-to-hero.md',
@@ -46,7 +46,7 @@ export const PROJECT_CONFIGURATION = {
     {
       icon: <CloudSVG />,
       title: `Ceph Made Simple`,
-      description: `Ceph is too complex to use for the average user. This complexity stems from Ceph’s flexibility that supports a huge matrix of use cases. Aquarium simplifies the installation, deployment, and day 1 operations.`,
+      description: `Ceph is considered too complex to use for the average user. This complexity stems from Ceph’s flexibility that supports a huge matrix of use cases. Aquarium simplifies the installation, deployment, and day 1 operations.`,
     },
     {
       icon: <TorchSVG />,
@@ -56,29 +56,36 @@ export const PROJECT_CONFIGURATION = {
     {
       icon: <ContainerSVG />,
       title: `Container Management`,
-      description: `Leveraging the Ceph Orchestrator (cephadm), Aquarium deploys and manages a Ceph cluster by connection to hosts from the manager daemon via SSH to add, remove, or update Ceph daemon containers. It does not rely on external configuration or orchestration tools like Ansible, Rook, or Salt.`,
+      description: `Leveraging the Ceph Orchestrator (cephadm), Aquarium deploys and manages a Ceph cluster by connecting to hosts from the manager daemon via SSH to add, remove, or update Ceph daemon containers.`,
     }
   ],
   projectHow: {
-    description: 'Aquarium is a standalone storage appliance that can .'
+    description: ''
   },
   // ℹ️ No more than 3 items for a better structure.
   projectGetStarted: [
     {
-      title: 'Download Rancher Desktop',
+      title: 'Contributing',
       action: {
         isEnable: true,
-        title: 'Install Rancher Desktop',
-        url: '#'
+        title: 'Clone the repository',
+        url: 'https://github.com/aquarist-labs/aquarium/'
       }
     },
     {
-      title: 'Run The App',
-      description: 'Run the app you downloaded and it will take care of the rest.',
+      title: 'Community guidelines',
       action: {
-        isEnable: false,
-        title: '',
-        url: ''
+        isEnable: true,
+        title: 'Read our documentation',
+        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
+      }
+    },
+    {
+      title: 'Hack away',
+      action: {
+        isEnable: true,
+        title: 'From Zero to Hero',
+        url: 'https://github.com/aquarist-labs/aquarium/blob/main/doc/from-zero-to-hero.md'
       }
     }
   ],
