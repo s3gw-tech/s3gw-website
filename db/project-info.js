@@ -66,22 +66,36 @@ export const PROJECT_CONFIGURATION = {
   projectGetStarted: [
     {
       title: 'Contributing',
-      action: {
+      description: 'Clone the repository',
+      externalLink: {
         isEnable: true,
+        url: 'https://github.com/aquarist-labs/aquarium/'
+      },
+      action: {
+        isEnable: false,
         title: 'Clone the repository',
         url: 'https://github.com/aquarist-labs/aquarium/'
       }
     },
     {
       title: 'Community guidelines',
-      action: {
+      description: 'Read our documentation',
+      externalLink: {
         isEnable: true,
+        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
+      },
+      action: {
+        isEnable: false,
         title: 'Read our documentation',
         url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
       }
     },
     {
       title: 'Hack away',
+      externalLink: {
+        isEnable: false,
+        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
+      },
       action: {
         isEnable: true,
         title: 'From Zero to Hero',

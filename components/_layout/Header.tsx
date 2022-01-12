@@ -1,7 +1,8 @@
-import { DecorationLineSVG } from '@/assets/images'
 import ProjectLogo from '@/assets/logo.svg'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import { motion } from 'framer-motion'
+import { InfinityLine } from '../InfiniteLine'
+
 export const Header = () => {
   const { projectTitle, projectSubtitle, projectNavigation } = PROJECT_CONFIGURATION
 
@@ -46,7 +47,7 @@ export const Header = () => {
           }}
           animate={{ x: 0, opacity: 1 }}
         >
-          <DecorationLineSVG className='max-w-full h-2' />
+          <InfinityLine />
         </motion.div>
       </div>
     </div>
