@@ -1,9 +1,3 @@
-## Important!
-
-💥 This is a POC and it's not ready for production.
-
----
-
 ## Getting Started
 
 For development, please run the following commands:
@@ -13,7 +7,7 @@ For development, please run the following commands:
 cp .template.env .env.development.local
 ```
 
-\*Requieres [Node](https://nodejs.org/en/) installed.
+*Requieres [Node](https://nodejs.org/en/) installed.
 
 ```bash
 npm install
@@ -32,7 +26,3 @@ Project configuration can be found under `/db/project-info.js`. You'll need to f
 You can serve the applications a Server-Side render with `npm start`. This will build the Production Ready application.
 
 If you want to generate static files to serve as Static Site on Github Pages for example you should run `npm run static`. This will generate an `/out` folder with all the static files.
-
-## Preview
-
-<img style="float: right;" src="./preview.png">
