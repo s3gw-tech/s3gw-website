@@ -90,12 +90,8 @@ export const PROJECT_CONFIGURATION = {
   },
   projectFooterLinks: [
     {
-      title: 'Career',
-      href: 'https://jobs.suse.com/',
-    },
-    {
-      title: 'Legal',
-      href: 'https://www.suse.com/company/legal/',
+      title: 'License',
+      href: 'https://github.com/aquarist-labs/aquarium/blob/main/COPYING',
     },
     {
       title: 'Feedback',

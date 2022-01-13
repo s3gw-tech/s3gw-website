@@ -44,9 +44,9 @@ export default function Home() {
 
         {/** 👀 Why section */}
         <div className='grid grid-flow-row gap-6 mx-auto w-5/6 2xl:w-3/6'>
-          <p className='text-secondary-light font-bold text-4xl mb-6 mt-20'>What is {projectTitle}?</p>
+          <p className='text-secondary-light font-bold text-4xl mb-6 mt-20 text-center'>What is {projectTitle}?</p>
 
-          <motion.div className='grid grid-flow-row gap-4 2xl:gap-20' initial='hidden' animate='visible' variants={motionListItems}>
+          <motion.div className='grid grid-flow-row gap-4' initial='hidden' animate='visible' variants={motionListItems}>
             <p>Aquarium is a SUSE-sponsored Open Source project to build an easy-to-use, rock-solid appliance wrapped around the Ceph project. The project started development in January 2021, and has become a passion project for the storage team at SUSE.</p>
 
             <p>
@@ -57,8 +57,8 @@ export default function Home() {
 
         {/** 👀 How to section */}
         <div className='bg-gray-200 relative'>
-          <div className='grid grid-flow-row gap-6 mt-16 mx-auto w-5/6 2xl:w-3/6'>
-            <p className='text-secondary-light font-bold text-4xl text-center'>How it works?</p>
+          <div className='grid grid-flow-row gap-6 m-16 mx-auto w-5/6 2xl:w-3/6'>
+            <p className='text-secondary-light font-bold text-4xl text-center'>How it works</p>
 
             <div className='grid grid-flow-row gap-4 2xl:gap-8'>
               {/** 👀 Teplace the image under `assets/how_it_works.svg` */}
@@ -70,7 +70,7 @@ export default function Home() {
 
         {/** 👀 Call to action */}
         <div className='grid grid-flow-row gap-6 mx-auto w-5/6 2xl:w-3/6'>
-          <p className=' text-secondary-light font-bold text-4xl mb-6'>Get started</p>
+          <p className=' text-secondary-light font-bold text-4xl mb-6 text-center'>Get started</p>
 
           <p>
             Our Zero-to-Hero guide takes you step by step through the process of setting up a local, VM-based test instance via Vagrant on a Linux system of your choice, including checking out all the required repositories, setting up a local build environment, running your first image build, and starting the resulting cluster.
@@ -85,7 +85,7 @@ export default function Home() {
           </a>
         </div>
         <div className='bg-secondary-lighter relative'>
-          <div className='mx-auto w-5/6 2xl:w-3/6 h-[280px] md:h-[240px]'>
+          <div className='mx-auto w-5/6 2xl:w-3/6 h-[280px] md:h-[300px]'>
             <div className='-mt-12 grid grid-flow-row md:grid-flow-col gap-4 bg-gray-200 px-6 py-10 text-black '>
               <div className=' flex flex-col gap-2 flex-wrap'>
                 {projectGetStarted.map((ele, i) => {
@@ -104,15 +104,13 @@ export default function Home() {
 
         </div>
 
-        <div className=''>
-          {/** 👀 FAQ Section */}
-          {projectFAQ.isEnabled && (
-            <div className='grid grid-flow-row gap-6 mb-10 mx-auto w-5/6 2xl:w-3/6 '>
-              <p className='text-secondary-light font-bold text-4xl mb-6'>FAQ</p>
+        {/** 👀 FAQ Section */}
+        {projectFAQ.isEnabled && (
+          <div className='grid grid-flow-row gap-6 mb-24 mx-auto w-5/6 2xl:w-3/6 '>
+            <p className='text-secondary-light font-bold text-4xl mb-6 text-center'>FAQ</p>
             <Collapse elements={projectFAQ.elements} />
           </div>
         )}
-        </div>
 
 
         {/** 👀 Sponsors */}

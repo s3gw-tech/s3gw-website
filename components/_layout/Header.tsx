@@ -1,4 +1,4 @@
-import { GithubSVG } from '@/assets/images'
+import { GithubSVG, SlackSVG } from '@/assets/images'
 import ProjectLogo from '@/assets/logo.svg'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 
@@ -20,23 +20,17 @@ export const Header = () => {
             </div>
           </div>
 
-          <a className='place-self-start md:place-self-end self-center flex gap-2 px-4 py-2 font-medium bg-primary text-white' href='https://github.com/aquarist-labs/aquarium' target='_blank' rel="noreferrer">
-            <GithubSVG className='fill-current text-white w-6' />
-            Repository</a>
+          <div className='place-self-start md:place-self-end self-center flex gap-2 px-4' >
+            <a className='place-self-start md:place-self-end self-center flex gap-2 px-4 py-2 font-medium border-2 border-gray-900 text-gray-900' href='https://github.com/aquarist-labs/aquarium' target='_blank' rel="noreferrer">
+              <SlackSVG className='fill-current text-gray-900 w-6' />
+              Join Slack</a>
 
+            <a className=' place-self-start md:place-self-end self-center flex gap-2 px-4 py-2 font-medium border-2 border-primary bg-primary text-white' href='https://github.com/aquarist-labs/aquarium' target='_blank' rel="noreferrer">
+              <GithubSVG className='fill-current text-white w-6' />
+              Repository</a>
+          </div>
         </div>
       </div>
-      {/* <div className='absolute w-full bottom-0'>
-        <motion.div
-          initial={{
-            x: -200,
-            opacity: 1,
-          }}
-          animate={{ x: 0, opacity: 1 }}
-        >
-          <InfinityLine />
-        </motion.div>
-      </div> */}
     </div>
   )
 }
