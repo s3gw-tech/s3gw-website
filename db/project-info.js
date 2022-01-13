@@ -1,4 +1,4 @@
-import { CloudSVG, TorchSVG, ContainerSVG, GithubSVG, SlackSVG } from '@/assets/images'
+import { GithubSVG, SlackSVG } from '@/assets/images'
 
 export const PROJECT_CONFIGURATION = {
   projectTitle: 'Aquarium',
