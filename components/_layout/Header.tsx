@@ -21,7 +21,7 @@ export const Header = () => {
           </div>
 
           <div className='place-self-start md:place-self-end self-center flex gap-2 px-4' >
-            <a className='place-self-start md:place-self-end self-center flex gap-2 px-4 py-2 font-medium border-2 border-gray-900 text-gray-900' href='https://github.com/aquarist-labs/aquarium' target='_blank' rel="noreferrer">
+            <a className='place-self-start md:place-self-end self-center flex gap-2 px-4 py-2 font-medium border-2 border-gray-900 text-gray-900' href='https://join.slack.com/t/aquaristlabs/shared_invite/zt-nphn0jhg-QYKw__It8JPMkUR_sArOug' target='_blank' rel="noreferrer">
               <SlackSVG className='fill-current text-gray-900 w-6' />
               Join Slack</a>
 
