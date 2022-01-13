@@ -1,4 +1,4 @@
-import { DecorationLineSVG, DocumentationSVG, GithubSVG } from '@/assets/images'
+import { DocumentationSVG, GithubSVG } from '@/assets/images'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import { motion } from 'framer-motion'
 import React from 'react'

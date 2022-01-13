@@ -1,4 +1,4 @@
-import { CloudSVG, TorchSVG, ContainerSVG, GithubSVG, SlackSVG } from '@/assets/images'
+import { GithubSVG, SlackSVG } from '@/assets/images'
 
 export const PROJECT_CONFIGURATION = {
   projectTitle: 'Aquarium',
@@ -41,67 +41,15 @@ export const PROJECT_CONFIGURATION = {
   ],
   projectRepoURL: 'https://github.com/aquarist-labs/aquarium',
   projectDocumentationURL: 'https://github.com/aquarist-labs/aquarium/blob/main/doc/from-zero-to-hero.md',
-  // ℹ️ No more than 3 items for a better structure.
-  projectWhy: [
-    {
-      icon: <CloudSVG />,
-      title: `Ceph Made Simple`,
-      description: `Ceph is considered too complex to use for the average user. This complexity stems from Ceph’s flexibility that supports a huge matrix of use cases. Aquarium simplifies the installation, deployment, and day 1 operations.`,
-    },
-    {
-      icon: <TorchSVG />,
-      title: `Built On Proven Projects`,
-      description: `Ceph is the industry standard for providing object, file, and block storage. Aquarium leverages Ceph and transforms support for object and file storage.`,
-    },
-    {
-      icon: <ContainerSVG />,
-      title: `Container Management`,
-      description: `Leveraging the Ceph Orchestrator (cephadm), Aquarium deploys and manages a Ceph cluster by connecting to hosts from the manager daemon via SSH to add, remove, or update Ceph daemon containers.`,
-    }
-  ],
   projectHow: {
     description: ''
   },
   // ℹ️ No more than 3 items for a better structure.
   projectGetStarted: [
-    {
-      title: 'Contributing',
-      description: 'Clone the repository',
-      externalLink: {
-        isEnable: true,
-        url: 'https://github.com/aquarist-labs/aquarium/'
-      },
-      action: {
-        isEnable: false,
-        title: 'Clone the repository',
-        url: 'https://github.com/aquarist-labs/aquarium/'
-      }
-    },
-    {
-      title: 'Community guidelines',
-      description: 'Read our documentation',
-      externalLink: {
-        isEnable: true,
-        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
-      },
-      action: {
-        isEnable: false,
-        title: 'Read our documentation',
-        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
-      }
-    },
-    {
-      title: 'Hack away',
-      externalLink: {
-        isEnable: false,
-        url: 'https://github.com/aquarist-labs/aquarium/blob/main/CONTRIBUTING.md'
-      },
-      action: {
-        isEnable: true,
-        title: 'From Zero to Hero',
-        url: 'https://github.com/aquarist-labs/aquarium/blob/main/doc/from-zero-to-hero.md'
-      }
-    }
+    'git clone git@github.com:aquarist-labs/aquarium',
+    'cd aquarium',
+    './tools/setup-dev.sh',
+    'source tools/venv/bin/activate'
   ],
   projectFAQ: {
     isEnabled: true,
@@ -142,12 +90,8 @@ export const PROJECT_CONFIGURATION = {
   },
   projectFooterLinks: [
     {
-      title: 'Career',
-      href: 'https://jobs.suse.com/',
-    },
-    {
-      title: 'Legal',
-      href: 'https://www.suse.com/company/legal/',
+      title: 'License',
+      href: 'https://github.com/aquarist-labs/aquarium/blob/main/COPYING',
     },
     {
       title: 'Feedback',
