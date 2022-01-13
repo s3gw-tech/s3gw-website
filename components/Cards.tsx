@@ -4,16 +4,15 @@ import { motion } from 'framer-motion'
 
 export const BulletPointCard = ({ item }) => {
   return (
-    <motion.div variants={motionListItems} key={item} className='relative grid items-center p-4 bg-secondary-dark text-white font-bold'>
-      <span className='flex gap-2 justify-start'>
+    <motion.div variants={motionListItems} key={item}
+      className='relative grid items-center p-4 text-secondary-dark bg-gray-100 font-bold'>
+      <span className='flex gap-2 justify-start py-4'>
         <span className='mt-1'>
-          <CheckMarkSVG className='w-6 h-6 fill-current text-secondary-light' />
+          {/* <CheckMarkSVG className='w-6 h-6 fill-current text-secondary-light' /> */}
         </span>
-        <span>{item}</span>
+        <span className="text-xl italic text-center">{item}</span>
       </span>
-      <div className='absolute w-full bottom-0'>
-        <DecorationLineSVG className='max-w-full h-1' />
-      </div>
+
     </motion.div>
   )
 }
@@ -45,7 +44,7 @@ export const GetStartedDownloadCard = ({ index, title, action, description, exte
             ? (
               <a className='flex gap-1 align-middle self-center hover:underline' href={externalLink.url} target='_blank' rel='noreferrer'>
                 {description}
-                <LinkSVG className='fill-current w-5' />
+                <LinkSVG className='fill-current w-4' />
               </a>
             )
             : description}
