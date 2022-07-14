@@ -1,0 +1,8 @@
+- name: S3 Gateway
+  link: /s3gw/
+  new_window: false
+  highlight: false
+- name: Github
+  link: https://github.com/aquarist-labs
+  new_window: true
+  highlight: false

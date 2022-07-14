@@ -1,0 +1,15 @@
+- links:
+  - name: s3gw core
+    link: https://github.com/aquarist-labs/s3gw-core
+    new_window: false
+
+- links:
+  - name: s3gw charts
+    link: https://github.com/aquarist-labs/s3gw-charts
+    new_window: false
+
+- links:
+  - name: s3gw Ceph
+    link: https://github.com/aquarist-labs/ceph
+    new_window: false
+
