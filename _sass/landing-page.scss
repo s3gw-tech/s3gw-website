@@ -15,6 +15,19 @@
 }
 
 
+.top-cta {
+	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0;
+
+	.button {
+		display: inline-block;
+	}
+}
+
+
 .hero {
 	color: #fff;
 	text-align: center;

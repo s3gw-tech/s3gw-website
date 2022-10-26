@@ -1,10 +1,10 @@
 - links:
-  - name: s3gw core
-    link: https://github.com/aquarist-labs/s3gw-core
+  - name: s3gw
+    link: https://github.com/aquarist-labs/s3gw
     new_window: false
 
 - links:
-  - name: s3gw charts
+  - name: s3gw Helm chart
     link: https://github.com/aquarist-labs/s3gw-charts
     new_window: false
 
