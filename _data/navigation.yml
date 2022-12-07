@@ -1,7 +1,3 @@
-- name: S3 Gateway
-  link: /s3gw/
-  new_window: false
-  highlight: false
 - name: Documentation
   link: https://s3gw-docs.readthedocs.io/en/latest
   new_window: false

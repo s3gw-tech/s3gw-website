@@ -1,36 +1,107 @@
 ---
-title: Welcome to Aquarist Labs
-description: Here you'll see a list of the team's projects
+title: S3 Gateway
+description: S3-compatible gateway for on-premise k8s storage
 ---
 
+<section class="hero">
+  <div class="text-container">
+    <h1>Welcome to the s3gw project</h1>
+    <p class="subtext">
+      The s3gw project helps Kubernetes users who need object storage (S3) to
+      back up their application data to a (Longhorn) PV by offering a
+      lightweight, Open Source S3 service, which is easy to deploy in a Cloud
+      Native world.
+    </p>
+
+    <div class="top-cta">
+      <div class="button alt">
+        <a href="https://github.com/aquarist-labs/s3gw#quickstart"
+          >Quickstart guide</a
+        >
+      </div>
+      <div class="button alt">
+        <a href="https://s3gw-docs.readthedocs.io/en/latest">Documentation</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="content">
-	<hr>
-	<section>
-		<div class="container flex">
-			<div class="text">
-				<h2>s3gw - S3 Gateway</h2>
-				<p>We're developing an S3-compatible gateway for on-premise k8s storage.</p>
-				<div class="button landing-button"><a href="{{ site.baseurl }}/s3gw">More information</a></div>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/s3gw.png" alt="s3gw image" />
-			</div>
-		</div>
-	</section>
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>
+          Leverage your infrastructure for <strong>object storage</strong>
+        </h2>
+        <p>
+          Relying on your existing Kubernetes storage, such as Longhorn, allow
+          your applications to take advantage of an S3-compliant API.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="{{ site.baseurl }}/images/infrastructure.png"
+          alt="Infrastructure"
+          class="screenshot"
+        />
+      </div>
+    </div>
+  </section>
 
-	<section>
-		<div class="container flex">
-			<div class="text">
-				<h2>Aquarium</h2>
-				<p>Aquarium is an easy-to-use, rock solid storage appliance built on Ceph.</p>
-				<p><strong>⚠️ This project is currently unmaintained.</strong></p>
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2><strong>S3 Semantics</strong></h2>
+        <p>S3 compatible semantics and APIs for on-premise object storage.</p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/s3.png" alt="S3 logo" />
+      </div>
+    </div>
+  </section>
 
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/aquarium.png" alt="Screenshot"/>
-			</div>
-		</div>
-	</section>
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2><strong>Lightweight</strong></h2>
+        <p>
+          Easy to deploy and manage, with a light container footprint and helm
+          charts to get started.
+        </p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/k8s.png" alt="Kubernetes logo" />
+      </div>
+    </div>
+  </section>
 
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2><strong>Longhorn</strong> for object storage</h2>
+        <p>
+          Consume a Longhorn PVC, and expose that storage as S3 for
+          applications.
+        </p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/longhorn.png" alt="Longhorn logo" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom-cta">
+    <h2>Easily deploy an <strong>S3 Gateway</strong> today</h2>
+    <div class="button">
+      <a href="https://github.com/aquarist-labs/s3gw#quickstart">Get Started</a>
+    </div>
+
+    <div class="button">
+      <a href="https://s3gw-docs.readthedocs.io/en/latest">Documentation</a>
+    </div>
+
+    <div class="button">
+      <a href="https://github.com/aquarist-labs/s3gw">Github</a>
+    </div>
+  </section>
 </div>

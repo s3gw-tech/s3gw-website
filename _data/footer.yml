@@ -1,15 +1,19 @@
 - links:
-  - name: s3gw
-    link: https://github.com/aquarist-labs/s3gw
-    new_window: false
+    - name: s3gw
+      link: https://github.com/aquarist-labs/s3gw
+      new_window: true
 
 - links:
-  - name: s3gw Helm chart
-    link: https://github.com/aquarist-labs/s3gw-charts
-    new_window: false
+    - name: s3gw helm chart
+      link: https://github.com/aquarist-labs/s3gw-charts
+      new_window: true
 
 - links:
-  - name: s3gw Ceph
-    link: https://github.com/aquarist-labs/ceph
-    new_window: false
+    - name: s3gw tools
+      link: https://github.com/aquarist-labs/s3gw-tools
+      new_window: true
 
+- links:
+    - name: s3gw UI
+      link: https://github.com/aquarist-labs/s3gw-ui
+      new_window: true

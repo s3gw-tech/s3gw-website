@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Aquarist Labs
-url: "https://aquarist-labs.io/"
+title: S3 Gateway Project
+url: "https://s3gw.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,7 +10,9 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Wen projects by Aquarist Labs
+description:
+  Easy to use object storage (S3) service and Web UI running on top of
+  (Longhorn) PVCs for RKE2/k3s/k8s.
 author:
   name:
   email:
@@ -18,7 +20,7 @@ author:
 social:
   name:
   links:
-    - https://github.com/aquarist-labs
+    - https://github.com/aquarist-labs/s3gw
 
 # -----
 # Build
@@ -58,12 +60,11 @@ defaults:
   - scope:
       path: "index.html"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: "s3gw.html"
     values:
       layout: "default"
-
 
 jekyll-archives:
   enabled:
@@ -80,5 +81,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
-
