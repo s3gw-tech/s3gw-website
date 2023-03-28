@@ -1,28 +1,36 @@
-## Getting Started
+# s3gw Website
 
-For development, please run the following commands:
+This repo contains the content of the s3gw landing page. Please open an issue if you have suggestions for new content or edits. We also gladly accept community PRs.
 
-```bash
-# This will create an env file with all the things needed for local development (rewrites paths, etc.)
-cp .template.env .env.development.local
+The website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+### Installation
+
+```
+$ yarn
 ```
 
-*Requires [Node](https://nodejs.org/en/) installed.
+### Local Development
 
-```bash
-npm install
-# then:
-npm run dev
-# or
-yarn dev
+```
+$ yarn start
 ```
 
-Project configuration can be found under `/db/project-info.js`. You'll need to fill it with your information and the changes would be reflected (live reload) at http://localhost:3000
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
----
+You can also use Docker to launch the website without needing to install and configure yarn:
+```
+docker run --rm -it -v $PWD:$PWD -w $PWD -p 3000:3000 node yarn start -h 0.0.0.0
+```
 
-## Build for production
+### Build
 
-You can serve the applications a Server-Side render with `npm start`. This will build the Production Ready application.
+```
+$ yarn build
+```
 
-If you want to generate static files to serve as Static Site on Github Pages for example you should run `npm run static`. This will generate an `/out` folder with all the static files.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+An automated GH action will deploy the website to GitHub Pages once a PR has been merged to `main`.
