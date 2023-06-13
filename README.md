@@ -34,3 +34,10 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 An automated GH action will deploy the website to GitHub Pages once a PR has been merged to `main`.
+
+### Static Files
+
+The `static` subdirectory contains static files both for this website as well as
+other parts of the project. In particular, image files containing the logo are
+hosted there, which are used in other parts of the project as well, e.g. the
+helm chart. Take extra care when moving or modifying the static content.
