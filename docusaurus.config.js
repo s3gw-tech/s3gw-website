@@ -68,6 +68,8 @@ module.exports = {
           blogTitle: 'Docusaurus blog!',
           blogDescription: 'A Docusaurus powered blog!',
           postsPerPage: 'ALL',
+          blogSidebarCount: 30,
+          blogSidebarTitle: 'Latest posts',
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
