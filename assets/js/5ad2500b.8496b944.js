@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[2979],{3599:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/introduction","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"A Docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

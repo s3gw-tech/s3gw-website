@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[6962],{6270:e=>{e.exports=JSON.parse('{"label":"epinio","permalink":"/blog/tags/epinio","allTagsPath":"/blog/tags","count":1}')}}]);

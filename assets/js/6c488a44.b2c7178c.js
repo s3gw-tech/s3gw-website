@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[8827],{3902:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/rancher","page":1,"postsPerPage":3,"totalPages":1,"totalCount":3,"blogDescription":"A Docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[1993],{7432:s=>{s.exports=JSON.parse('{"label":"s3gw","permalink":"/blog/tags/s-3-gw","allTagsPath":"/blog/tags","count":4}')}}]);
