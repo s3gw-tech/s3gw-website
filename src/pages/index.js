@@ -56,7 +56,9 @@ function Landing() {
 `
 # Helm chart
 helm repo add s3gw https://aquarist-labs.github.io/s3gw-charts/
-helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace
+helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace \\
+    --set publicDomain=YOUR_DOMAIN_NAME \\
+    --set ui.publicDomain=YOUR_DOMAIN_NAME
 
 # Docker
 docker pull quay.io/s3gw/s3gw:latest
