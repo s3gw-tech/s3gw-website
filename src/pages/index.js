@@ -56,7 +56,9 @@ function Landing() {
 `
 # Helm chart
 helm repo add s3gw https://aquarist-labs.github.io/s3gw-charts/
-helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace
+helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace \\
+    --set publicDomain=YOUR_DOMAIN_NAME \\
+    --set ui.publicDomain=YOUR_DOMAIN_NAME
 
 # Docker
 docker pull quay.io/s3gw/s3gw:latest
@@ -67,6 +69,19 @@ podman run --replace --name=s3gw -it -p 7480:7480 quay.io/s3gw/s3gw:latest
 
 `
         }</CodeBlock>
+        <div><p>Helm is the preferred deployment method, and will automatically use
+          your cluster's default storage class for the backing store. If you have
+          Longhorn installed already, s3gw will thus use a Longhorn PV. The above
+          assumes cert-manager and traefik are available, but these and other settings
+          can be overridden via values.yaml.</p>
+          <p>Docker and Podman deployments will use ephemeral storage inside the
+            container by default, so should only be used for testing on a local system.
+          </p>
+          <p>In all the above cases, the default Access Key and Secret Key are
+            set to "test". Please see <a href="https://s3gw-docs.readthedocs.io/">our documentation</a> for
+            more details on how to configure s3gw.
+          </p>
+        </div>
       </div>
       <div className={`${index.learnMore} ${index.bgPrimary}`}>
         <div className={index.wrap}>
