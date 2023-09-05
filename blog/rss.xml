@@ -4,10 +4,36 @@
         <title>s3gw Project Blog</title>
         <link>https://s3gw.io/blog</link>
         <description>s3gw Project Blog</description>
-        <lastBuildDate>Thu, 06 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release Notes - v0.20.0]]></title>
+            <link>https://s3gw.io/blog/2023/08/31/release-notes-0.20</link>
+            <guid>https://s3gw.io/blog/2023/08/31/release-notes-0.20</guid>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release contains significant improvements and new bug fixes, particularly]]></description>
+            <content:encoded><![CDATA[<p>This release contains significant improvements and new bug fixes, particularly
+in the s3gw backing store. Notably, this release brings garbage collection,
+improved bucket listing, including filtering, and conditional GETs.</p><p>This release is meant for testing and feedback gathering. It is not recommended
+for production use.</p><p>Should a bug be found and not expected to be related with known issues, one
+should feel encouraged to file an issue in our
+<a href="https://github.com/aquarist-labs/s3gw/issues/new/choose" target="_blank" rel="noopener noreferrer">Github repository</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2><ul><li>rgw/sfs: Query-based version listing</li><li>rgw/sfs: Support conditional GETs</li><li>rgw/sfs: New garbage collection implementation</li><li>rgw/sfs: Change on-disk file format, add suffixes</li><li>ui backend: Parity with operations required by UI</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="fixes">Fixes<a href="#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes">​</a></h2><ul><li>rgw/sfs: Fix warnings after enabling more compilation flags</li><li>rgw/sfs: Several code cleanup efforts</li><li>rgw/sfs: use global part id for multipart parts</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-changes">Breaking Changes<a href="#breaking-changes" class="hash-link" aria-label="Direct link to Breaking Changes" title="Direct link to Breaking Changes">​</a></h2><ul><li>On-disk format for both metadata and data store have changed.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues<a href="#known-issues" class="hash-link" aria-label="Direct link to Known Issues" title="Direct link to Known Issues">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Release Notes - v0.19.0]]></title>
+            <link>https://s3gw.io/blog/2023/08/03/release-notes-0.19</link>
+            <guid>https://s3gw.io/blog/2023/08/03/release-notes-0.19</guid>
+            <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release contains various fixes and improvements in the backend. Most]]></description>
+            <content:encoded><![CDATA[<p>This release contains various fixes and improvements in the backend. Most
+notably, error handling, multipart handling and internal bookkeeping of objects
+has improved.</p><p>This release is meant for testing and feedback gathering. It is not recommended
+for production use.</p><p>Should a bug be found and not expected to be related to the list below, one
+should feel encouraged to file an issue in our
+<a href="https://github.com/aquarist-labs/s3gw/issues/new/choose" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2><ul><li>rgw/sfs: Log SQLite error / warning messages</li><li>rgw/sfs: Add SQLite retries and error handling</li><li>rgw/sfs: Improve multipart handling</li><li>ui backend: Add endpoints for user management</li><li>ui backend: Add bucket management endpoints</li><li>ui frontend: Allow creating admin users</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="fixes">Fixes<a href="#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes">​</a></h2><ul><li>rgw/sfs: Fix Invalid argument exception on exit with telemetry off</li><li>rgw/sfs: Fix delete bucket when not empty</li><li>rgw/sfs: Abort on-going multiparts on bucket removal</li><li>rgw/sfs: Fix bucket listing</li><li>rgw/sfs: Various fixes to object state transitions</li><li>ui frontend: Fix table header on zoom-in</li><li>ui frontend: Fix bucket deletion dialogue in <code>Administrator</code> mode</li><li>ui frontend: Fix creating keys for users</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-changes">Breaking Changes<a href="#breaking-changes" class="hash-link" aria-label="Direct link to Breaking Changes" title="Direct link to Breaking Changes">​</a></h2><ul><li>On-disk format for the metadata store changed</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues<a href="#known-issues" class="hash-link" aria-label="Direct link to Known Issues" title="Direct link to Known Issues">​</a></h2>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Release Notes - v0.18.0]]></title>
             <link>https://s3gw.io/blog/release-notes-v0.18</link>
