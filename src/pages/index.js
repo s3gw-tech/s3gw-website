@@ -29,18 +29,22 @@ function Landing() {
 
     <section className={index.wrap}>
       <h2>Why Use s3gw</h2>
-      <div className={index.gridThree}>
+      <div className={index.gridFour}>
         <div>
-          <h5>S3 Semantics</h5>
+          <h4>S3 Semantics</h4>
           <p>S3 compatible semantics and APIs for on-premise object storage.</p>
         </div>
         <div>
-          <h5>Lightweight</h5>
-          <p>Easy to deploy and manage, with a light container footprint and helm charts to get started.</p>
+          <h4>Lightweight</h4>
+          <p>Easy to deploy and manage, with a light container footprint and Helm charts to get started.</p>
         </div>
         <div>
-          <h5>Longhorn for object storage</h5>
+          <h4>Longhorn for object storage</h4>
           <p>Consume a Longhorn PVC, and expose it as S3 for applications.</p>
+        </div>
+        <div>
+          <h4>UI</h4>
+          <p>Easy to manage and administrate via graphical user interface.</p>
         </div>
       </div>
     </section>
@@ -62,10 +66,13 @@ helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace \\
 
 # Docker
 docker pull quay.io/s3gw/s3gw:latest
+docker pull quay.io/s3gw/s3gw-ui:latest
 docker run -p 7480:7480 quay.io/s3gw/s3gw:latest
+docker run -p 8080:8080 -e S3GW_SERVICE_URL="http://<IPADDR>:7480" quay.io/s3gw/s3gw-ui:latest
 
 # Podman
 podman run --replace --name=s3gw -it -p 7480:7480 quay.io/s3gw/s3gw:latest
+podman run --replace --name=s3gw-ui -it -p 8080:8080 -e S3GW_SERVICE_URL="http://<IPADDR>:7480" quay.io/s3gw/s3gw-ui:latest
 
 `
         }</CodeBlock>
@@ -77,10 +84,21 @@ podman run --replace --name=s3gw -it -p 7480:7480 quay.io/s3gw/s3gw:latest
           <p>Docker and Podman deployments will use ephemeral storage inside the
             container by default, so should only be used for testing on a local system.
           </p>
-          <p>In all the above cases, the default Access Key and Secret Key are
-            set to "test". Please see <a href="https://s3gw-docs.readthedocs.io/">our documentation</a> for
+          <p>In all the above cases, the default <i>Access Key</i> and <i>Secret Key</i> are
+            set to "<strong>test</strong>". Please see <a href="https://s3gw-docs.readthedocs.io/">our documentation</a> for
             more details on how to configure s3gw.
           </p>
+        </div>
+        <div>
+          <p>
+            The same credentials can be used to access the UI to manage your buckets
+            and objects. The UI also offers the possibility to manage additional users and credentials.
+          </p>
+        </div>
+        <div>
+          <img src="/img/ui-users.png" alt="User Management" className={index.imgBorder}></img>
+          <img src="/img/ui-buckets.png" alt="Bucket Management" className={index.imgBorder}></img>
+          <img src="/img/ui-object-explorer.png" alt="Object Explorer" className={index.imgBorder}></img>
         </div>
       </div>
       <div className={`${index.learnMore} ${index.bgPrimary}`}>

@@ -120,7 +120,6 @@ Below is used for the s3gw.io landing page
   color: var(--ifm-color-secondary)
 }
 
-
 .getStarted {
   display:grid;
   grid-template-columns:repeat(6,1fr);
@@ -173,6 +172,11 @@ Below is used for the s3gw.io landing page
   color:var(--dark);
  }
 
+ .folder h5,
+ [data-theme='dark'] .folder h5 {
+   color:var(--dark);
+ }
+
 .folder .bgLight {
   background-color:var(--light);
   padding:40px;
@@ -212,10 +216,17 @@ Below is used for the s3gw.io landing page
   flex-basis:0
 }
 
+@media screen and (max-width: 1536px) {
+  .gridFour {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /** In mobile view */
 @media screen and (max-width: 996px) {
   .gridTwo,
   .gridThree,
+  .gridFour,
   .intro .gridTwo {
     grid-template-columns:1fr
   }
@@ -237,4 +248,8 @@ pre {
   white-space:pre-wrap
 }
 
-
+.imgBorder {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(51,49,59,.5);
+}
