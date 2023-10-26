@@ -18,13 +18,14 @@ module.exports = {
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: true,
+      disableSwitch: false,
     },
     navbar: {
       title: "",
       logo: {
         alt: 'logo',
-        src: 'img/logo.svg'
+        src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg'
       },
       items: [
         {
@@ -49,7 +50,39 @@ module.exports = {
           to: 'https://github.com/aquarist-labs/s3gw',
           label: 'GitHub',
           position: 'right',
-          className: 'navbar__github btn btn-secondary icon-github',
+          className: 'navbar__icon navbar__github',
+        },
+        {
+          type: 'dropdown',
+          label: 'More From SUSE',
+          position: 'right',
+          className: 'navbar__docs',
+          items: [
+            {
+              label: 'Rancher',
+              to: 'https://www.rancher.com',
+              className: 'navbar__icon navbar__rancher',
+            },
+            {
+              label: 'Rancher Desktop',
+              to: "https://rancherdesktop.io",
+              className: 'navbar__icon navbar__rd',
+            },
+            {
+              label: 'Longhorn',
+              to: "https://longhorn.io",
+              className: 'navbar__icon navbar__longhorn',
+            },
+            {
+              type: 'html',
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              label: 'More Projects...',
+              to: "https://opensource.suse.com",
+              className: 'navbar__icon navbar__suse',
+            },
+          ],
         }
       ],
     },
