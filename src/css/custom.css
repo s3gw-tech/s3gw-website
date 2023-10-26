@@ -4,7 +4,11 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-/* Import fonts. */
+
+ /* Import icon dropdown styles. */
+@import "icon_dropdown.css";
+
+ /* Import fonts. */
 
 /* poppins */
 @font-face {
@@ -51,7 +55,7 @@
 }
 /* Dark Mode Color Override */
 [data-theme='dark'] {
-  --ifm-color-primary: #ffc61c;
+  --ifm-color-primary: #06527a;
   --ifm-color-primary-dark: #ffbf00;
   --ifm-color-primary-darker: #f1b400;
   --ifm-color-primary-darkest: #c69400;
@@ -68,6 +72,10 @@
 [data-theme='dark'] .footer--dark {
   background-color: var(--light);
   color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .intro_src-pages-index-module h1, .intro_src-pages-index-module h4, .intro_src-pages-index-module p {
+  color: white;
 }
 
 .button--static {

@@ -112,9 +112,11 @@ Below is used for the s3gw.io landing page
 
 [data-theme='dark']
 .intro h1,
+[data-theme='dark']
 .intro h4,
+[data-theme='dark']
 .intro p {
-  color:var(--light)
+  color:var(--dark)
 }
 [data-theme='dark'] .intro a {
   color: var(--ifm-color-secondary)
