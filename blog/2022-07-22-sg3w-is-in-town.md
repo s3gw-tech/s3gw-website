@@ -20,7 +20,7 @@ This is the first publicly available iteration of the s3gw project. We expect (a
 
 We would love to hear from you about what you'd like to see on our roadmap. What would enable you best to use s3gw in your environment?
 
-Reach out to us at <s3gw@suse.com> or our [Slack channel](https://aquaristlabs.slack.com/archives/C03RFG0BES0). You can also join [our mailing list](https://lists.suse.com/mailman/listinfo/s3gw) or have a look at our [GitHub repository](https://github.com/aquarist-labs/s3gw) -- feature requests are welcome! 🙂
+Reach out to us at [contact@s3gw.tech](mailto:contact@s3gw.tech) or have a look at our [GitHub repository][1] -- feature requests are welcome! 🙂
 
-[1]:https://github.com/aquarist-labs/s3gw
+[1]:https://github.com/s3gw-tech/s3gw
 [2]:https://docs.ceph.com/en/quincy/radosgw/
