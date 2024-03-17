@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[8067],{1270:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/s-3-gw","page":1,"postsPerPage":4,"totalPages":1,"totalCount":4,"blogDescription":"A Docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

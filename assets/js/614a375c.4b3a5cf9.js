@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[1530],{6610:e=>{e.exports=JSON.parse('{"label":"Rancher","permalink":"/blog/tags/rancher","allTagsPath":"/blog/tags","count":3}')}}]);
