@@ -2,13 +2,13 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 's3gw Project',
-  tagline: 'Lightweght S3 service for Kubernetes',
-  url: 'https://s3gw.io',
+  tagline: 'Lightweght S3 service for small deployments',
+  url: 'https://s3gw.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Aquarist Labs', // Usually your GitHub org/user name.
+  organizationName: 's3gw.tech', // Usually your GitHub org/user name.
   projectName: 's3gw website', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
@@ -41,55 +41,17 @@ module.exports = {
           className: 'navbar__docs'
         },
         {
-          to: 'https://rancher-users.slack.com/archives/C04DCMUV8SE',
-          label: 'Slack',
-          position: 'right',
-          className: 'navbar__docs'
-        },
-        {
-          to: 'https://github.com/aquarist-labs/s3gw',
+          to: 'https://github.com/s3gw-tech/s3gw',
           label: 'GitHub',
           position: 'right',
           className: 'navbar__icon navbar__github',
-        },
-        {
-          type: 'dropdown',
-          label: 'More From SUSE',
-          position: 'right',
-          className: 'navbar__docs',
-          items: [
-            {
-              label: 'Rancher',
-              to: 'https://www.rancher.com',
-              className: 'navbar__icon navbar__rancher',
-            },
-            {
-              label: 'Rancher Desktop',
-              to: "https://rancherdesktop.io",
-              className: 'navbar__icon navbar__rd',
-            },
-            {
-              label: 'Longhorn',
-              to: "https://longhorn.io",
-              className: 'navbar__icon navbar__longhorn',
-            },
-            {
-              type: 'html',
-              value: '<hr style="margin: 0.3rem 0;">',
-            },
-            {
-              label: 'More Projects...',
-              to: "https://opensource.suse.com",
-              className: 'navbar__icon navbar__suse',
-            },
-          ],
-        }
+        },        
       ],
     },
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} SUSE`,
+      copyright: `Copyright © ${new Date().getFullYear()} s3gw contributors`,
     },
   },
   presets: [

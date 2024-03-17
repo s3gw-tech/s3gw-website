@@ -13,7 +13,7 @@ function Landing() {
         <div className={`${index.wrap}`}>
           <div>
             <h1>Leverage your infrastructure for object storage</h1>
-            <h4>The s3gw project is a lightweight, open source S3 service that's easy to deploy in a cloud native environment. It's useful for Kubernetes users who need object storage to back up their application data to a Longhorn PV.</h4>
+            <h4>The s3gw project is a lightweight, open source S3 service for small deployments, and easy to deploy in a cloud native environment such as Kubernetes.</h4>
           </div>
         </div>
       </div>
@@ -39,8 +39,8 @@ function Landing() {
           <p>Easy to deploy and manage, with a light container footprint and Helm charts to get started.</p>
         </div>
         <div>
-          <h4>Longhorn for object storage</h4>
-          <p>Consume a Longhorn PVC, and expose it as S3 for applications.</p>
+          <h4>Just needs some storage</h4>
+          <p>May it be a Kubernetes PVC or a local File System, s3gw consumes any storage and exposes it as S3 for applications.</p>
         </div>
         <div>
           <h4>UI</h4>
@@ -59,7 +59,7 @@ function Landing() {
         <CodeBlock className="language-sh">{
 `
 # Helm chart
-helm repo add s3gw https://aquarist-labs.github.io/s3gw-charts/
+helm repo add s3gw https://charts.s3gw.tech
 helm install s3gw s3gw/s3gw --namespace s3gw-system --create-namespace \\
     --set publicDomain=YOUR_DOMAIN_NAME \\
     --set ui.publicDomain=YOUR_DOMAIN_NAME
@@ -77,8 +77,7 @@ podman run --replace --name=s3gw-ui -it -p 8080:8080 -e S3GW_SERVICE_URL="http:/
 `
         }</CodeBlock>
         <div><p>Helm is the preferred deployment method, and will automatically use
-          your cluster's default storage class for the backing store. If you have
-          Longhorn installed already, s3gw will thus use a Longhorn PV. The above
+          your cluster's default storage class for the backing store. The above
           assumes cert-manager and traefik are available, but these and other settings
           can be overridden via values.yaml.</p>
           <p>Docker and Podman deployments will use ephemeral storage inside the
@@ -103,20 +102,20 @@ podman run --replace --name=s3gw-ui -it -p 8080:8080 -e S3GW_SERVICE_URL="http:/
       </div>
       <div className={`${index.learnMore} ${index.bgPrimary}`}>
         <div className={index.wrap}>
-          <h2 className={index.learn_more}>Articles from the Rancher blog</h2>
+          <h2 className={index.learn_more}>Highlighted Articles from the Blog</h2>
           <div className={index.gridThree}>
           <div>
               <h3 className={index.learn_more}>Introduction to s3gw</h3>
-              <a href="https://www.suse.com/c/rancher_blog/introduction-to-s3gw/" class="button button--lg button--static">Read more</a>
+              <a href="/blog/introduction-to-s3gw" class="button button--lg button--static">Read more</a>
             </div>
             <div>
               <h3 className={index.learn_more}>Epinio meets s3gw</h3>
-              <a href="https://www.suse.com/c/rancher_blog/epino-meets-s3gw/" class="button button--lg button--static">Read more</a>
+              <a href="/blog/epinio-meets-s3gw" class="button button--lg button--static">Read more</a>
             </div>
             <div>
               <h3 className={index.learn_more}>Deploy s3gw in Digital Ocean
 </h3>
-              <a href="https://www.suse.com/c/rancher_blog/deploy-s3gw-in-digital-ocean/" class="button button--lg button--static">Read more</a>
+              <a href="/blog/deploy-s3gw-digital-ocean" class="button button--lg button--static">Read more</a>
             </div>
           </div>
         </div>

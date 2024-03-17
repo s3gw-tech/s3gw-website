@@ -47,6 +47,12 @@
   padding-bottom: 4px;
 }
 
+/*
+ --
+ keep these around in case of need, but we don't intend to use them anymore
+ --
+*/
+/*
 .navbar__rancher:hover:before {
   background-color: #2e68e9;
 }
@@ -85,3 +91,4 @@
   height: 15px;
   padding-bottom: 4px;
 }
+*/
