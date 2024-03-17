@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://s3gw.io/blog</id>
+    <id>https://s3gw.tech/blog</id>
     <title>s3gw Project Blog</title>
     <updated>2023-08-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://s3gw.io/blog"/>
+    <link rel="alternate" href="https://s3gw.tech/blog"/>
     <subtitle>s3gw Project Blog</subtitle>
-    <icon>https://s3gw.io/img/favicon.ico</icon>
+    <icon>https://s3gw.tech/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.20.0]]></title>
-        <id>https://s3gw.io/blog/2023/08/31/release-notes-0.20</id>
-        <link href="https://s3gw.io/blog/2023/08/31/release-notes-0.20"/>
+        <id>https://s3gw.tech/blog/2023/08/31/release-notes-0.20</id>
+        <link href="https://s3gw.tech/blog/2023/08/31/release-notes-0.20"/>
         <updated>2023-08-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This release contains significant improvements and new bug fixes, particularly]]></summary>
         <content type="html"><![CDATA[<p>This release contains significant improvements and new bug fixes, particularly
@@ -22,8 +22,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.21.0]]></title>
-        <id>https://s3gw.io/blog/2023/08/31/release-notes-0.21</id>
-        <link href="https://s3gw.io/blog/2023/08/31/release-notes-0.21"/>
+        <id>https://s3gw.tech/blog/2023/08/31/release-notes-0.21</id>
+        <link href="https://s3gw.tech/blog/2023/08/31/release-notes-0.21"/>
         <updated>2023-08-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This release contains significant improvements and new bug fixes. Notably,]]></summary>
         <content type="html"><![CDATA[<p>This release contains significant improvements and new bug fixes. Notably,
@@ -35,8 +35,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.22.0]]></title>
-        <id>https://s3gw.io/blog/2023/08/31/release-notes-0.22</id>
-        <link href="https://s3gw.io/blog/2023/08/31/release-notes-0.22"/>
+        <id>https://s3gw.tech/blog/2023/08/31/release-notes-0.22</id>
+        <link href="https://s3gw.tech/blog/2023/08/31/release-notes-0.22"/>
         <updated>2023-08-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This release contains significant improvements and new bug fixes. Notably,]]></summary>
         <content type="html"><![CDATA[<p>This release contains significant improvements and new bug fixes. Notably,
@@ -47,8 +47,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.19.0]]></title>
-        <id>https://s3gw.io/blog/2023/08/03/release-notes-0.19</id>
-        <link href="https://s3gw.io/blog/2023/08/03/release-notes-0.19"/>
+        <id>https://s3gw.tech/blog/2023/08/03/release-notes-0.19</id>
+        <link href="https://s3gw.tech/blog/2023/08/03/release-notes-0.19"/>
         <updated>2023-08-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This release contains various fixes and improvements in the backend. Most]]></summary>
         <content type="html"><![CDATA[<p>This release contains various fixes and improvements in the backend. Most
@@ -60,8 +60,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.18.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.18</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.18"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.18</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.18"/>
         <updated>2023-07-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.18.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains numerous fixes for the UI and a refactoring of the object
@@ -76,8 +76,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.17.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.17</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.17"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.17</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.17"/>
         <updated>2023-06-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.17.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains a number of changes to the internal data structures and
@@ -96,8 +96,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.16.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.16</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.16"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.16</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.16"/>
         <updated>2023-05-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.16.0]]></summary>
         <content type="html"><![CDATA[<p>This release cycle focused on architecture adjustments to the s3gw service's
@@ -117,8 +117,8 @@ PUTs.</li></ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.15.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.15</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.15"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.15</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.15"/>
         <updated>2023-04-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.15.0]]></summary>
         <content type="html"><![CDATA[<p>This release focuses on stabilizing our continuous integration and release process.
@@ -137,8 +137,8 @@ release process.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bre
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.14.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.14</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.14"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.14</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.14"/>
         <updated>2023-03-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.14.0]]></summary>
         <content type="html"><![CDATA[<p>This release adds lifecycle management, object locks (legal holds) and an
@@ -154,8 +154,8 @@ Writes no longer need to update the object state during IO.</li><li>SFS: Update 
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.13.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.13</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.13"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.13</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.13"/>
         <updated>2023-03-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.13.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains a few new features in the backend an in the UI, including
@@ -173,8 +173,8 @@ Add the ability to set an explicit retention mode on object's versions</li><li>U
     </entry>
     <entry>
         <title type="html"><![CDATA[Epinio meets s3gw]]></title>
-        <id>https://s3gw.io/blog/epinio-meets-s3gw</id>
-        <link href="https://s3gw.io/blog/epinio-meets-s3gw"/>
+        <id>https://s3gw.tech/blog/epinio-meets-s3gw</id>
+        <link href="https://s3gw.tech/blog/epinio-meets-s3gw"/>
         <updated>2023-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post explains how to set up the s3gw object service with the Epinio project]]></summary>
         <content type="html"><![CDATA[<p>Since the very first version,&nbsp;<a href="https://epinio.io/" target="_blank" rel="noopener noreferrer">Epinio</a>&nbsp;has made use of an internal S3 endpoint to store the user's projects in the form of aggregated tarballs.</p><div class="theme-admonition theme-admonition-warning alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_S0QG"><p>This content was adapted from the original <code>aquarist-labs</code> organization to the
@@ -189,8 +189,8 @@ new <code>s3gw-tech</code> organization. Some of it, especially screenshots, may
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.12.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.12</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.12"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.12</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.12"/>
         <updated>2023-02-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.12.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains a bunch of stability fixes in the backend, but also some
@@ -210,8 +210,8 @@ some platforms</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="break
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.11.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.11</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.11"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.11</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.11"/>
         <updated>2023-01-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.11.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains several notable features on the User Interface and on
@@ -236,8 +236,8 @@ Chart to compute random alphanumeric values for the fields.</p></li><li><p>Defau
     </entry>
     <entry>
         <title type="html"><![CDATA[Deploy s3gw in Digital Ocean]]></title>
-        <id>https://s3gw.io/blog/deploy-s3gw-digital-ocean</id>
-        <link href="https://s3gw.io/blog/deploy-s3gw-digital-ocean"/>
+        <id>https://s3gw.tech/blog/deploy-s3gw-digital-ocean</id>
+        <link href="https://s3gw.tech/blog/deploy-s3gw-digital-ocean"/>
         <updated>2023-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this tutorial, we will walk through the setup of a single-node K3s Kubernetes cluster with Rancher, together with the S3 Gateway (s3gw) and a Longhorn PV (Persistent Volume).]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2><p>In this tutorial, we will walk through the setup of a single-node K3s Kubernetes cluster with Rancher, together with the S3 Gateway (s3gw) and a Longhorn PV (Persistent Volume). This guide will use Digital Ocean, but these instructions will likely work with other cloud providers as well.&nbsp;</p><div class="theme-admonition theme-admonition-warning alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_S0QG"><p>This content was adapted from the original <code>aquarist-labs</code> organization to the
@@ -253,8 +253,8 @@ new <code>s3gw-tech</code> organization. Some of it, especially screenshots, may
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.10.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.10</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.10"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.10</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.10"/>
         <updated>2022-12-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.10.0]]></summary>
         <content type="html"><![CDATA[<p>This release contains several important changes to the UI and the charts as well
@@ -270,8 +270,8 @@ should feel encouraged to file an issue in our
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.9.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.9</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.9"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.9</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.9"/>
         <updated>2022-12-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.9.0]]></summary>
         <content type="html"><![CDATA[<p>This release introduces some notable changes to Charts, together with UI improvements.
@@ -290,8 +290,8 @@ by the newly added variables. (gh#aquarist-labs/s3gw#180)</li></ul></li></ul><h2
     </entry>
     <entry>
         <title type="html"><![CDATA[Introduction to s3gw]]></title>
-        <id>https://s3gw.io/blog/introduction-to-s3gw</id>
-        <link href="https://s3gw.io/blog/introduction-to-s3gw"/>
+        <id>https://s3gw.tech/blog/introduction-to-s3gw</id>
+        <link href="https://s3gw.tech/blog/introduction-to-s3gw"/>
         <updated>2022-11-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Introductory blog post on the s3gw Project, a standalone S3 service based in the RADOS Gateway project.]]></summary>
         <content type="html"><![CDATA[<p>s3gw is an S3-compatible service focused on deployments in a Kubernetes environment backed by any PVC, including&nbsp;<a href="https://longhorn.io/" target="_blank" rel="noopener noreferrer">Longhorn</a>.&nbsp;Since its inception,&nbsp;the primary focus has been on cloud native deployments. However, the s3gw can be deployed in a myriad of scenarios, provided some form of storage is attached.</p><p>s3gw is based on Ceph's RADOSGW (RGW) but runs as a stand--alone service without the RADOS cluster and relies on a storage backend still under heavy development by the storage team at SUSE. The s3gw team is also developing a web-based UI for management and an object explorer.</p><div class="theme-admonition theme-admonition-warning alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_S0QG"><p>This content was adapted from the original <code>aquarist-labs</code> organization to the
@@ -311,8 +311,8 @@ new <code>s3gw-tech</code> organization. Some of it, especially screenshots, may
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.8.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.8</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.8"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.8</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.8"/>
         <updated>2022-11-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.8.0]]></summary>
         <content type="html"><![CDATA[<p>This release adds several bug fixes, together with UI improvements. In
@@ -335,8 +335,8 @@ be stopped, ongoing multipart uploads will be lost.</li><li>Listing multipart up
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.7.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.7</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.7"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.7</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.7"/>
         <updated>2022-10-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.7.0]]></summary>
         <content type="html"><![CDATA[<p>This release adds several bug fixes, together with UI improvements. In
@@ -355,8 +355,8 @@ be stopped, on-going multipart uploads will be lost.</li><li>Listing multipart u
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.6.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.6</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.6"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.6</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.6"/>
         <updated>2022-09-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.6.0]]></summary>
         <content type="html"><![CDATA[<p>This release adds several new features, together with UI improvements. In
@@ -374,8 +374,8 @@ be stopped, on-going multipart uploads will be lost.</li><li>Listing multipart u
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.5.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.5</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.5"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.5</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.5"/>
         <updated>2022-09-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.5.0]]></summary>
         <content type="html"><![CDATA[<p>This release add a few small fixes to the last release, especially in the UI.
@@ -398,8 +398,8 @@ the Helm Chart best practices guide to <code>accessKey</code> and <code>secretKe
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.4.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.4</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.4"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.4</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.4"/>
         <updated>2022-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.4.0]]></summary>
         <content type="html"><![CDATA[<p>With v0.4.0 we introduce Object Versioning in the Gateway.
@@ -420,8 +420,8 @@ For Helm chart fans, information can be found <a href="https://github.com/aquari
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes - v0.3.0]]></title>
-        <id>https://s3gw.io/blog/release-notes-v0.3</id>
-        <link href="https://s3gw.io/blog/release-notes-v0.3"/>
+        <id>https://s3gw.tech/blog/release-notes-v0.3</id>
+        <link href="https://s3gw.tech/blog/release-notes-v0.3"/>
         <updated>2022-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Release notes for v.0.3.0]]></summary>
         <content type="html"><![CDATA[<p>With v0.3.0 a few things changed in the overall project:</p><ul><li>the <code>s3gw-core</code> repository has been renamed <code>s3gw-tools</code>;</li><li>the main repository is now <a href="https://github.com/aquarist-labs/s3gw" target="_blank" rel="noopener noreferrer">s3gw</a>;</li><li>the <code>s3gw</code> repository contains documentation and all other s3gw-related
@@ -445,8 +445,8 @@ For Helm chart fans, information can be found <a href="https://github.com/aquari
     </entry>
     <entry>
         <title type="html"><![CDATA[Does your PV need S3 access? We’ve got you covered]]></title>
-        <id>https://s3gw.io/blog/does-your-pv-need-s3-access</id>
-        <link href="https://s3gw.io/blog/does-your-pv-need-s3-access"/>
+        <id>https://s3gw.tech/blog/does-your-pv-need-s3-access</id>
+        <link href="https://s3gw.tech/blog/does-your-pv-need-s3-access"/>
         <updated>2022-07-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In a cloud-native environment, it is important to offer storage systems that can interact with clients using a standard protocol.]]></summary>
         <content type="html"><![CDATA[<p>Increased demand for cloud storage solutions has become a crucial topic in recent years: companies are requiring data to be made more readily available for their cloud-native applications.</p><div class="theme-admonition theme-admonition-warning alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_S0QG"><p>This content was adapted from the original <code>aquarist-labs</code> organization to the
@@ -473,8 +473,8 @@ use that as it is against s3gw.</p><p>All you need to to is to create a director
     </entry>
     <entry>
         <title type="html"><![CDATA[Contain your excitement, the s3gw is in town]]></title>
-        <id>https://s3gw.io/blog/s3gw-rados-gateway-standalone</id>
-        <link href="https://s3gw.io/blog/s3gw-rados-gateway-standalone"/>
+        <id>https://s3gw.tech/blog/s3gw-rados-gateway-standalone</id>
+        <link href="https://s3gw.tech/blog/s3gw-rados-gateway-standalone"/>
         <updated>2022-07-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We've developed a standalone RADOS Gateway. Welcome to the s3gw Project.]]></summary>
         <content type="html"><![CDATA[<p>The Aquarist Labs team is back with an open source and cloud-native S3 service. After spending months investigating a storage appliance built on Ceph, the team identified the need to complement the Rancher storage portfolio with their unique skillsets and lessons learned from their time developing Aquarium.</p><p>Introducing the <a href="https://github.com/s3gw-tech/s3gw" target="_blank" rel="noopener noreferrer">s3gw project</a>, an S3-compatible gateway running a standalone <a href="https://docs.ceph.com/en/quincy/radosgw/" target="_blank" rel="noopener noreferrer">RADOS Gateway (RGW)</a> implementation, using a non-RADOS backend for standalone usage. This new project provides the required infrastructure to build a container able to run on a Kubernetes cluster with S3-compatible endpoints to applications.</p><p>This is the first publicly available iteration of the s3gw project. We expect (and welcome!) bugs and we know our performance is not optimal (yet!). This release is meant for testing and feedback gathering and it is not recommended for production use. See our release notes for more details.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-to-action">Call to action<a href="#call-to-action" class="hash-link" aria-label="Direct link to Call to action" title="Direct link to Call to action">​</a></h2><p>We would love to hear from you about what you'd like to see on our roadmap. What would enable you best to use s3gw in your environment?</p><p>Reach out to us at&nbsp;<a href="mailto:contact@s3gw.tech" target="_blank" rel="noopener noreferrer">contact@s3gw.tech</a>&nbsp;or have a look at&nbsp;our&nbsp;<a href="https://github.com/s3gw-tech/s3gw" target="_blank" rel="noopener noreferrer">GitHub repository</a>&nbsp;-- feature requests are welcome!&nbsp;🙂</p>]]></content>
