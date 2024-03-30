@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkk_3_s_website=self.webpackChunkk_3_s_website||[]).push([[3894],{1702:s=>{s.exports=JSON.parse('{"label":"Longhorn","permalink":"/blog/tags/longhorn","allTagsPath":"/blog/tags","count":1}')}}]);
