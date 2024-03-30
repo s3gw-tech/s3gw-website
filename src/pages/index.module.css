@@ -1,22 +1,45 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* --------------------------------
 Below is used for the s3gw.tech landing page
 ----------------------------------*/
 
 * {
- box-sizing:inherit
+  box-sizing: inherit;
 }
 
 .bgPrimary {
-  background-color:var(--ifm-color-secondary)
+  background-color: var(--ifm-color-primary);
 }
 
 [data-theme='dark'] .bgPrimary {
-  background-color:var(--ifm-color-primary)
+  background-color: var(--ifm-color-primary);
 }
 
-
 .bgLight {
-  background-color:var(--light)
+  background-color: var(--light);
 }
 
 .wrap {
@@ -31,31 +54,31 @@ Below is used for the s3gw.tech landing page
  pulling in these basic definitions */
 .landing {
   font-family: 'roboto', sans-serif;
-  font-size:10px;
+  font-size: 10px;
 }
 
 .landing p {
-  margin-bottom:2rem;
-  font-size:1.5em;
-  line-height:1.5rem
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  line-height: 1.5rem;
 }
 
 .landing h1 {
   color: #fff;
-  margin-bottom:3rem;
-  font-size:5em;
-  line-height:4rem
+  margin-bottom: 3rem;
+  font-size: 5em;
+  line-height: 4rem;
 }
 .landing h2 {
-  margin-bottom:3rem;
-  font-size:3em;
-  line-height:4rem;
-  text-align:center;
+  margin-bottom: 3rem;
+  font-size: 3em;
+  line-height: 4rem;
+  text-align: center;
 }
 .landing h3 {
-  margin-bottom:3rem;
-  font-size:2.5em;
-  line-height:3.5rem
+  margin-bottom: 3rem;
+  font-size: 2.5em;
+  line-height: 3.5rem;
 }
 .landing h2.learn_more,
 .landing h3.learn_more {
@@ -63,19 +86,19 @@ Below is used for the s3gw.tech landing page
   margin-bottom: 1rem;
 }
 .landing h4 {
-  margin-bottom:1rem;
-  font-size:2em;
-  line-height:2rem
+  margin-bottom: 1rem;
+  font-size: 2em;
+  line-height: 2rem;
 }
 .landing h5 {
-  margin-bottom:2rem;
-  font-size:1.75em;
-  line-height:2.75rem
+  margin-bottom: 2rem;
+  font-size: 1.75em;
+  line-height: 2.75rem;
 }
 .landing h6 {
-  margin-bottom:2rem;
-  font-size:1.4em;
-  line-height:2.25rem
+  margin-bottom: 2rem;
+  font-size: 1.4em;
+  line-height: 2.25rem;
 }
 
 .textCenter {
@@ -83,110 +106,168 @@ Below is used for the s3gw.tech landing page
 }
 
 .intro {
-  display:grid;
-  grid-template-columns:repeat(6,1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   padding: 0;
-  align-items:end;
-  column-gap:2rem;
-  position:relative
+  align-items: end;
+  column-gap: 2rem;
+  position: relative;
 }
 .intro .gridTwo {
-  grid-template-columns:60% auto
+  grid-template-columns: 60% auto;
 }
 .intro .wrap {
-  padding:5rem 0 15rem
+  padding: 5rem 0 15rem;
 }
 .intro .folder {
-  grid-row:5/span 3;
-  grid-column:2/span 4;
-  z-index:2
+  grid-row: 5 / span 3;
+  grid-column: 2 / span 4;
+  z-index: 2;
 }
 .intro .bgPrimary {
-  grid-row:3/span 4;
-  grid-column:1/span 6;
-  color:var(--dark)
+  grid-row: 3 / span 4;
+  grid-column: 1 / span 6;
+  color: var(--light);
 }
 .intro a {
   text-decoration: underline;
 }
 
-[data-theme='dark']
-.intro h1,
-[data-theme='dark']
-.intro h4,
-[data-theme='dark']
-.intro p {
-  color:var(--dark)
+[data-theme='dark'] .intro h1,
+[data-theme='dark'] .intro h4,
+[data-theme='dark'] .intro p {
+  color: var(--dark);
 }
 [data-theme='dark'] .intro a {
-  color: var(--ifm-color-secondary)
+  color: var(--ifm-color-secondary);
+}
+
+.howItWorks {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 3rem;
+  position: relative;
+}
+
+.howItWorks .white {
+  background: var(--light);
+  grid-row: 2 / span 4;
+  grid-column: 2 / span 4;
+  z-index: 2;
+  box-shadow: rgba(51, 49, 59, 0.5) 0 0 20px;
+  padding: 5rem;
+}
+
+[data-theme='dark'] .howItWorks .white {
+  box-shadow: var(--light) 5px 5px 10px;
+}
+
+.howItWorks .moreInfo {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.howItWorks a {
+  text-decoration: underline;
+}
+
+.howItWorks .stack {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+}
+
+[data-theme='dark'] .howItWorks h1,
+[data-theme='dark'] .howItWorks h2,
+[data-theme='dark'] .howItWorks p {
+  color: var(--dark);
+}
+
+[data-theme='dark'] .howItWorks a {
+  color: var(--ifm-color-secondary);
 }
 
 .getStarted {
-  display:grid;
-  grid-template-columns:repeat(6,1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   padding-top: 3rem;
-  position:relative
- }
+  padding-bottom: 3rem;
+  position: relative;
+}
 
 .getStarted .white {
-  background:var(--light);
-  grid-row:2/span 4;
-  grid-column:2/span 4;
-  z-index:2;
-  box-shadow:rgba(51,49,59,.5) 0 0 20px;
-  padding:5rem
+  background: var(--light);
+  grid-row: 2 / span 4;
+  grid-column: 2 / span 4;
+  z-index: 2;
+  box-shadow: rgba(51, 49, 59, 0.5) 0 0 20px;
+  padding: 5rem;
+}
+
+[data-theme='dark'] .getStarted .white {
+  box-shadow: var(--light) 5px 5px 10px;
 }
 
 .getStarted .bgPrimary {
-  grid-row:5/span 3;
-  grid-column:1/span 6;
-  padding:10rem 0 5rem;
+  grid-row: 5 / span 3;
+  grid-column: 1 / span 6;
+  padding: 10rem 0 5rem;
 }
 
 @media screen and (max-width: 996px) {
   .getStarted {
-    grid-template-columns:repeat(8,1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
   .getStarted .white {
-    grid-column:2/span 6;
+    grid-column: 2 / span 6;
   }
   .getStarted .bgPrimary {
-    grid-column:1/span 8;
+    grid-column: 1 / span 8;
   }
 }
 
+[data-theme='dark'] .getStarted h1,
+[data-theme='dark'] .getStarted h2,
+[data-theme='dark'] .getStarted p {
+  color: var(--dark);
+}
+
+[data-theme='dark'] .getStarted a {
+  color: var(--ifm-color-secondary);
+}
+
 [data-theme='dark'] .learnMore {
-  background-color:var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
   color: var(--light);
 }
 
 .folder h4 {
-  display:inline-block;
-  margin:0;
-  padding:10px 20px;
-  background-color:var(--ifm-color-primary-dark);
-  color:var(--light);
-  position:relative
- }
- [data-theme='dark'] .folder h4 {
-  background-color:var(--ifm-color-secondary-light);
-  color:var(--dark);
- }
+  display: inline-block;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: var(--ifm-color-secondary-darkest);
+  /* color: var(--dark); */
+  position: relative;
+}
+[data-theme='dark'] .folder h4 {
+  background-color: var(--ifm-color-secondary-light);
+  color: var(--dark);
+}
 
- .folder h5,
- [data-theme='dark'] .folder h5 {
-   color:var(--dark);
- }
+.folder h5,
+[data-theme='dark'] .folder h5 {
+  color: var(--dark);
+}
 
 .folder .bgLight {
-  background-color:var(--light);
-  padding:40px;
-  border-top:solid var(--ifm-color-primary-dark) 14px;
-  box-shadow:rgba(51,49,59,.5) 0 0 20px
+  background-color: var(--light);
+  padding: 40px;
+  border-top: solid var(--ifm-color-secondary-darkest) 14px;
+  box-shadow: rgba(51, 49, 59, 0.5) 0 0 20px;
 }
 [data-theme='dark'] .folder .bgLight {
-  border-top:solid var(--ifm-color-secondary-light) 14px;
+  border-top: solid var(--ifm-color-secondary-light) 14px;
 }
 
 .gridTwo {
@@ -209,13 +290,13 @@ Below is used for the s3gw.tech landing page
 }
 
 .gridDynamic {
-  display:flex
+  display: flex;
 }
 
 .gridDynamic h5 {
-  margin:0;
-  flex-grow:1;
-  flex-basis:0
+  margin: 0;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 @media screen and (max-width: 1536px) {
@@ -230,28 +311,28 @@ Below is used for the s3gw.tech landing page
   .gridThree,
   .gridFour,
   .intro .gridTwo {
-    grid-template-columns:1fr
+    grid-template-columns: 1fr;
   }
 }
 
 pre {
-  page-break-inside:avoid;
-  font-family:monospace;
-  font-size:15px;
-  line-height:1.6;
-  margin-bottom:1.6em;
-  max-width:100%;
-  overflow:auto;
-  padding:1em 1.5em;
-  display:block;
-  word-wrap:break-word;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
   overflow-wrap: break-word;
-  border-radius:3px;
-  white-space:pre-wrap
+  border-radius: 3px;
+  white-space: pre-wrap;
 }
 
 .imgBorder {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(51,49,59,.5);
+  border-color: rgba(51, 49, 59, 0.5);
 }
