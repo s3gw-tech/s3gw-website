@@ -28,6 +28,7 @@ const config: Config = {
 
   trailingSlash: false,
   themeConfig: {
+    image: 'img/s3gw-tech-social-card.png',
     colorMode: {
       // "light" | "dark"
       defaultMode: 'light',
